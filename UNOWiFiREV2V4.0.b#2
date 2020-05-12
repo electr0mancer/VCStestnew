@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.2.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -268,7 +268,6 @@
 <wire x1="65.6" y1="21.575" x2="68.6" y2="21.575" width="0.254" layer="41"/>
 <dimension x1="8.5212" y1="39.35" x2="0" y2="39.35" x3="4.2606" y3="57.35" textsize="1.778" layer="47"/>
 <dimension x1="8.5212" y1="36.85" x2="8.5212" y2="0" x3="-8.7837875" y3="18.425" textsize="1.778" layer="47"/>
-<text x="63.925" y="34.75" size="1.778" layer="1" rot="R90">Planys</text>
 </plain>
 <libraries>
 <library name="Arduino-utility">
@@ -2096,7 +2095,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="SPI1" library="Arduino-connectors" package="2X03" value="-" x="64.897" y="27.94" smashed="yes" rot="R90">
+<element name="SPI1" library="Arduino-connectors" package="2X03" value="-" x="64.897" y="27.94" rot="R90">
 <attribute name="CODE-ARDUINO" value="0114" x="64.897" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="-" x="64.897" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/samtec-inc/TSW-103-25-S-D/TSW-103-25-S-D-ND/7863771" x="64.897" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2106,7 +2105,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="67.754" y="31.078" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" value="-" x="62.37" y="32.208" size="1.27" layer="27"/>
 </element>
-<element name="IOL" library="Arduino-connectors" package="1X08" value="Digital" x="54.61" y="50.8" smashed="yes" rot="R180">
+<element name="IOL" library="Arduino-connectors" package="1X08" value="Digital" x="54.61" y="50.8" rot="R180">
 <attribute name="CODE-ARDUINO" value="3648" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="-" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="-" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2115,7 +2114,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="FH254-108DF085149V" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="Digital" x="54.61" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IOH" library="Arduino-connectors" package="1X10" value="Digital" x="30.226" y="50.8" smashed="yes" rot="R180">
+<element name="IOH" library="Arduino-connectors" package="1X10" value="Digital" x="30.226" y="50.8" rot="R180">
 <attribute name="CODE-ARDUINO" value="3648" x="30.226" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="-" x="30.226" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="-" x="30.226" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2124,7 +2123,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="FH254-110DF085149V" x="30.226" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="Digital" x="30.226" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="AD" library="Arduino-connectors" package="1X06-TH" value="Analog" x="57.15" y="2.54" smashed="yes">
+<element name="AD" library="Arduino-connectors" package="1X06-TH" value="Analog" x="57.15" y="2.54">
 <attribute name="CODE-ARDUINO" value="3649" x="57.15" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="-" x="57.15" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="-" x="57.15" y="2.54" size="1.778" layer="27" display="off"/>
@@ -2133,7 +2132,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="FH254-106DF085149V" x="57.15" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="Analog" x="52.578" y="-1.778" size="1.27" layer="27"/>
 </element>
-<element name="FD3" library="Arduino-utility" package="FD-1-2" value="DNP" x="6.35" y="49.403" smashed="yes">
+<element name="FD3" library="Arduino-utility" package="FD-1-2" value="DNP" x="6.35" y="49.403">
 <attribute name="CODE-ARDUINO" value="DNP" x="6.35" y="49.403" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="6.35" y="49.403" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="6.35" y="49.403" size="1.778" layer="27" display="off"/>
@@ -2142,7 +2141,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="6.35" y="49.403" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="DNP" x="6.35" y="49.403" size="1.778" layer="27" display="off"/>
 </element>
-<element name="FD2" library="Arduino-utility" package="FD-1-2" value="DNP" x="61.2632" y="40.1834" smashed="yes">
+<element name="FD2" library="Arduino-utility" package="FD-1-2" value="DNP" x="61.2632" y="40.1834">
 <attribute name="CODE-ARDUINO" value="DNP" x="61.2632" y="40.1834" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="61.2632" y="40.1834" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="61.2632" y="40.1834" size="1.778" layer="27" display="off"/>
@@ -2151,7 +2150,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="61.2632" y="40.1834" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="DNP" x="61.2632" y="40.1834" size="1.778" layer="27" display="off"/>
 </element>
-<element name="FD1" library="Arduino-utility" package="FD-1-2" value="DNP" x="3.73" y="3.41" smashed="yes">
+<element name="FD1" library="Arduino-utility" package="FD-1-2" value="DNP" x="3.73" y="3.41">
 <attribute name="CODE-ARDUINO" value="DNP" x="3.73" y="3.41" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="3.73" y="3.41" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="3.73" y="3.41" size="1.778" layer="27" display="off"/>
@@ -2160,7 +2159,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="3.73" y="3.41" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="DNP" x="3.73" y="3.41" size="1.778" layer="27" display="off"/>
 </element>
-<element name="POWER" library="Arduino-connectors" package="1X08" value="Power" x="36.83" y="2.54" smashed="yes">
+<element name="POWER" library="Arduino-connectors" package="1X08" value="Power" x="36.83" y="2.54">
 <attribute name="CODE-ARDUINO" value="3649" x="36.83" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="-" x="36.83" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="-" x="36.83" y="2.54" size="1.778" layer="27" display="off"/>
@@ -2170,7 +2169,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.4208" y="6.7818" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" value="Power" x="32.512" y="-1.778" size="1.27" layer="27"/>
 </element>
-<element name="FRAME1" library="Arduino-utility" package="FRAME" value="DNP" x="-33.7436" y="0.6132" smashed="yes">
+<element name="FRAME1" library="Arduino-utility" package="FRAME" value="DNP" x="-33.7436" y="0.6132">
 <attribute name="CODE-ARDUINO" value="DNP" x="-33.7436" y="0.6132" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="-33.7436" y="0.6132" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="-33.7436" y="0.6132" size="1.778" layer="27" display="off"/>
@@ -2178,7 +2177,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="-33.7436" y="0.6132" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="-33.7436" y="0.6132" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C901" library="Arduino-rcl" package="0402-1005X55N" value="4u7" x="36.6" y="28.4" smashed="yes" rot="R45">
+<element name="C901" library="Arduino-rcl" package="0402-1005X55N" value="4u7" x="36.6" y="28.4" rot="R45">
 <attribute name="CODE-ARDUINO" value="0833" x="36.6" y="28.4" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" x="36.6" y="28.4" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R60J475ME47D/490-5915-1-ND/3719860" x="36.6" y="28.4" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2188,7 +2187,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.51005" y="29.11715625" size="0.4064" layer="51" font="vector" ratio="10" rot="R45"/>
 <attribute name="NOTE" value="-" x="36.6" y="28.4" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="C902" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="37.4" y="27.5" smashed="yes" rot="R225">
+<element name="C902" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="37.4" y="27.5" rot="R225">
 <attribute name="CODE-ARDUINO" value="0132" x="37.4" y="27.5" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="37.4" y="27.5" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="37.4" y="27.5" size="1.778" layer="27" rot="R225" display="off"/>
@@ -2198,7 +2197,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.310053125" y="28.217159375" size="0.4064" layer="51" font="vector" ratio="10" rot="R45"/>
 <attribute name="NOTE" value="-" x="37.4" y="27.5" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
-<element name="C903" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="39.875" y="23.475" smashed="yes" rot="R225">
+<element name="C903" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="39.875" y="23.475" rot="R225">
 <attribute name="CODE-ARDUINO" value="0132" x="39.875" y="23.475" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="39.875" y="23.475" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="39.875" y="23.475" size="1.778" layer="27" rot="R225" display="off"/>
@@ -2208,7 +2207,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.685053125" y="24.192159375" size="0.4064" layer="51" font="vector" ratio="10" rot="R45"/>
 <attribute name="NOTE" value="-" x="39.875" y="23.475" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
-<element name="C904" library="Arduino-rcl" package="0402-1005X55N" value="20p" x="40.01530625" y="19.39230625" smashed="yes" rot="R225">
+<element name="C904" library="Arduino-rcl" package="0402-1005X55N" value="20p" x="40.01530625" y="19.39230625" rot="R225">
 <attribute name="CODE-ARDUINO" value="2188" x="40.01530625" y="19.39230625" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DATASHEET" value="http://www.kemet.com/docfinder?Partnumber=CBR04C200J5GAC" x="40.01530625" y="19.39230625" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/kemet/CBR04C200J5GAC/399-6173-1-ND/2732143" x="40.01530625" y="19.39230625" size="1.778" layer="27" rot="R225" display="off"/>
@@ -2218,7 +2217,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="41.005253125" y="19.675146875" size="0.4064" layer="51" font="vector" ratio="10" rot="R225"/>
 <attribute name="NOTE" value="-" x="40.01530625" y="19.39230625" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
-<element name="C905" library="Arduino-rcl" package="0402-1005X55N" value="20p" x="38.49449375" y="17.87289375" smashed="yes" rot="R45">
+<element name="C905" library="Arduino-rcl" package="0402-1005X55N" value="20p" x="38.49449375" y="17.87289375" rot="R45">
 <attribute name="CODE-ARDUINO" value="2188" x="38.49449375" y="17.87289375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DATASHEET" value="http://www.kemet.com/docfinder?Partnumber=CBR04C200J5GAC" x="38.49449375" y="17.87289375" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/kemet/CBR04C200J5GAC/399-6173-1-ND/2732143" x="38.49449375" y="17.87289375" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2228,7 +2227,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.50454375" y="17.59005" size="0.4064" layer="51" font="vector" ratio="10" rot="R45"/>
 <attribute name="NOTE" value="-" x="38.49449375" y="17.87289375" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="C906" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="34.6742625" y="18.55710625" smashed="yes" rot="R135">
+<element name="C906" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="34.6742625" y="18.55710625" rot="R135">
 <attribute name="CODE-ARDUINO" value="0132" x="34.6742625" y="18.55710625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="34.6742625" y="18.55710625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="34.6742625" y="18.55710625" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2238,7 +2237,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.957103125" y="17.56715625" size="0.4064" layer="51" font="vector" ratio="10" rot="R135"/>
 <attribute name="NOTE" value="-" x="34.6742625" y="18.55710625" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="C907" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="25.39141875" y="21.06715625" smashed="yes" rot="R45">
+<element name="C907" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="25.39141875" y="21.06715625" rot="R45">
 <attribute name="CODE-ARDUINO" value="0132" x="25.39141875" y="21.06715625" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="25.39141875" y="21.06715625" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="25.39141875" y="21.06715625" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2248,7 +2247,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.40146875" y="20.7843125" size="0.4064" layer="51" font="vector" ratio="10" rot="R45"/>
 <attribute name="NOTE" value="-" x="25.39141875" y="21.06715625" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="FRAME901" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" smashed="yes" rot="R90">
+<element name="FRAME901" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" rot="R90">
 <attribute name="CODE-ARDUINO" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2256,7 +2255,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="PB901" library="Arduino-pushbuttons" package="TS42" value="-" x="6.35" y="49.403" smashed="yes" rot="R180">
+<element name="PB901" library="Arduino-pushbuttons" package="TS42" value="-" x="6.35" y="49.403" rot="R180">
 <attribute name="CODE-ARDUINO" value="0946" x="6.35" y="49.403" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.mouser.com/ds/2/418/NG_CD_1571636_C1-122399.pdf " x="6.35" y="49.403" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.mouser.it/ProductDetail/TE-Connectivity/1571636-3/?qs=%2fha2pyFaduiys%2fNUBzym%252bcoSb9tuK3Sjuv54qjf0hQ0%3d" x="6.35" y="49.403" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2267,7 +2266,7 @@ design rules under a new name.</description>
 <attribute name="PN-ALTERNATIVE1" value="TS42031-160WWS027260" x="6.35" y="49.403" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="9.35" y="45.403" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="R901" library="Arduino-rcl" package="0402-1005X55N" value="DNP" x="38.5" y="26.4" smashed="yes" rot="R45">
+<element name="R901" library="Arduino-rcl" package="0402-1005X55N" value="DNP" x="38.5" y="26.4" rot="R45">
 <attribute name="CODE-ARDUINO" value="DNP" x="38.5" y="26.4" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="38.5" y="26.4" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="38.5" y="26.4" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2277,7 +2276,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.41005" y="27.11715625" size="0.4064" layer="51" font="vector" ratio="10" rot="R45"/>
 <attribute name="NOTE" value="NO" x="38.5" y="26.4" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="R902" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="39.5" y="25.4" smashed="yes" rot="R45">
+<element name="R902" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="39.5" y="25.4" rot="R45">
 <attribute name="CODE-ARDUINO" value="0134" x="39.5" y="25.4" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="39.5" y="25.4" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="39.5" y="25.4" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2287,7 +2286,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.41005" y="26.11715625" size="0.4064" layer="51" font="vector" ratio="10" rot="R45"/>
 <attribute name="NOTE" value="NO" x="39.5" y="25.4" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="R903" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="15.5026" y="46.6516" smashed="yes" rot="R270">
+<element name="R903" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="15.5026" y="46.6516" rot="R270">
 <attribute name="CODE-ARDUINO" value="2229" x="15.5026" y="46.6516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="15.5026" y="46.6516" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07330RL/311-330LRCT-ND/729541" x="15.5026" y="46.6516" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2297,7 +2296,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.0026" y="47.5516" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="NO" x="15.5026" y="46.6516" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R904" library="Arduino-rcl" package="0402-1005X55N" value="39R" x="12.8016" y="47.1552" smashed="yes" rot="R180">
+<element name="R904" library="Arduino-rcl" package="0402-1005X55N" value="39R" x="12.8016" y="47.1552" rot="R180">
 <attribute name="CODE-ARDUINO" value="0138" x="12.8016" y="47.1552" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="12.8016" y="47.1552" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-0739RL/311-39.0LRCT-ND/729549" x="12.8016" y="47.1552" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2307,7 +2306,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.7016" y="46.6552" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="NO" x="12.8016" y="47.1552" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U901" library="Arduino-ucs&amp;SoCs" package="TQFP48" value="ATMEGA4809" x="31.3491375" y="23.83450625" smashed="yes" rot="R315">
+<element name="U901" library="Arduino-ucs&amp;SoCs" package="TQFP48" value="ATMEGA4809" x="31.3491375" y="23.83450625" rot="R315">
 <attribute name="CODE-ARDUINO" value="2322" x="31.3491375" y="23.83450625" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/40002016A.pdf" x="31.3491375" y="23.83450625" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA4809-AFR/ATMEGA4809-AFRCT-ND/8540756" x="31.3491375" y="23.83450625" size="1.778" layer="27" rot="R315" display="off"/>
@@ -2317,7 +2316,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.88709375" y="29.69995625" size="1.016" layer="25" rot="R315"/>
 <attribute name="VALUE" x="27.495334375" y="23.79200625" size="1.016" layer="27" rot="R315"/>
 </element>
-<element name="Y901" library="Arduino-crystals" package="ABS07" value="32768Hz" x="37.99393125" y="19.983521875" smashed="yes" rot="R45">
+<element name="Y901" library="Arduino-crystals" package="ABS07" value="32768Hz" x="37.99393125" y="19.983521875" rot="R45">
 <attribute name="CODE-ARDUINO" value="0213" x="37.99393125" y="19.983521875" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABS07.pdf" x="37.99393125" y="19.983521875" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/abracon-llc/ABS07-32.768KHZ-T/535-9542-1-ND/1237009" x="37.99393125" y="19.983521875" size="1.778" layer="27" rot="R45" display="off"/>
@@ -2326,7 +2325,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="ABS07-32.768KHZ-T " x="37.99393125" y="19.983521875" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="NAME" x="36.197878125" y="19.983521875" size="0.92" layer="51" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="FRAME701" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" smashed="yes">
+<element name="FRAME701" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0">
 <attribute name="CODE-ARDUINO" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2334,7 +2333,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U701" library="Arduino-ICs" package="SON50P300X200X60-9N-EP160X140" value="ECC608" x="19.5796" y="44.9432" smashed="yes">
+<element name="U701" library="Arduino-ICs" package="SON50P300X200X60-9N-EP160X140" value="ECC608" x="19.5796" y="44.9432">
 <attribute name="CODE-ARDUINO" value="A5007" x="19.5796" y="44.9432" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/40001977A.pdf" x="19.5796" y="44.9432" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATECC608A-MAHDA-T/ATECC608A-MAHDA-TCT-ND/7928236" x="19.5796" y="44.9432" size="1.778" layer="27" display="off"/>
@@ -2344,7 +2343,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.5796" y="46.4672" size="0.92" layer="51" font="vector" ratio="10" align="center"/>
 <attribute name="NOTE" value="NO" x="19.5796" y="44.9432" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C701" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17.55" y="46.65" smashed="yes" rot="R270">
+<element name="C701" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17.55" y="46.65" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="17.55" y="46.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="17.55" y="46.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="17.55" y="46.65" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2354,7 +2353,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.05" y="47.55" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="17.55" y="46.65" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C2" library="Arduino-rcl" package="0402-1005X55N" value="4u7" x="23.4784" y="42.9016" smashed="yes" rot="R270">
+<element name="C2" library="Arduino-rcl" package="0402-1005X55N" value="4u7" x="23.4784" y="42.9016" rot="R270">
 <attribute name="CODE-ARDUINO" value="0833" x="23.4784" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" x="23.4784" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R60J475ME47D/490-5915-1-ND/3719860" x="23.4784" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2364,7 +2363,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.9784" y="43.8016" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="23.4784" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="21.9956" y="42.9016" smashed="yes" rot="R270">
+<element name="C1" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="21.9956" y="42.9016" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="21.9956" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="21.9956" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="21.9956" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2374,7 +2373,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.4956" y="43.8016" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="21.9956" y="42.9016" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="FRAME801" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" smashed="yes">
+<element name="FRAME801" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0">
 <attribute name="CODE-ARDUINO" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2382,7 +2381,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="USB801" library="Arduino-connectors" package="USB-B-H" value="-" x="6.54" y="38.1" smashed="yes">
+<element name="USB801" library="Arduino-connectors" package="USB-B-H" value="-" x="6.54" y="38.1">
 <attribute name="CODE-ARDUINO" value="0056" x="6.54" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://cnctech.us/pdfs/1001-003-02000.pdf " x="6.54" y="38.1" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/products/it?keywords=1001-003-02000" x="6.54" y="38.1" size="1.778" layer="27" display="off"/>
@@ -2392,7 +2391,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.6" y="41.275" size="1.27" layer="25" rot="R90"/>
 <attribute name="PN-ALTERNATIVE1" value="USB-B-S-RA-WT-SPCC" x="6.54" y="38.1" size="1.778" layer="27" display="off"/>
 </element>
-<element name="FRAME201" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" smashed="yes">
+<element name="FRAME201" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0">
 <attribute name="CODE-ARDUINO" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2400,7 +2399,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U201" library="Arduino-Sensors" package="LGA14L" value="LSM6DSMTR" x="47.8" y="28.915" smashed="yes" rot="R180">
+<element name="U201" library="Arduino-Sensors" package="LGA14L" value="LSM6DSMTR" x="47.8" y="28.915" rot="R180">
 <attribute name="CODE-ARDUINO" value="2326" x="47.8" y="28.915" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/76/27/cf/88/c5/03/42/6b/DM00218116.pdf/files/DM00218116.pdf/jcr:content/translations/en.DM00218116.pdf" x="47.8" y="28.915" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/stmicroelectronics/LSM6DSMTR/497-16696-1-ND/6192778" x="47.8" y="28.915" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2409,7 +2408,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="LSM6DSMTR" x="47.8" y="28.915" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.3" y="31.715" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C201" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="47" y="32.275" smashed="yes" rot="R90">
+<element name="C201" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="47" y="32.275" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="47" y="32.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="47" y="32.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="47" y="32.275" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2419,7 +2418,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.5" y="31.375" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="47" y="32.275" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C202" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="49.852" y="31.8504" smashed="yes" rot="R90">
+<element name="C202" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="49.852" y="31.8504" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="49.852" y="31.8504" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="49.852" y="31.8504" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="49.852" y="31.8504" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2429,7 +2428,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="49.352" y="30.9504" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="49.852" y="31.8504" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="FRAME601" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" smashed="yes" rot="R90">
+<element name="FRAME601" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" rot="R90">
 <attribute name="CODE-ARDUINO" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2437,7 +2436,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="0" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C301" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="63" y="10.3" smashed="yes" rot="R270">
+<element name="C301" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="63" y="10.3" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="63" y="10.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="63" y="10.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="63" y="10.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2447,7 +2446,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="62" y="11.1" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="63" y="10.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C302" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="64.4" y="10.3" smashed="yes" rot="R90">
+<element name="C302" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="64.4" y="10.3" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="64.4" y="10.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="64.4" y="10.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="64.4" y="10.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2457,7 +2456,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="65.4" y="9.6" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="64.4" y="10.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C303" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="63.8" y="23.1" smashed="yes" rot="R180">
+<element name="C303" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="63.8" y="23.1" rot="R180">
 <attribute name="CODE-ARDUINO" value="0132" x="63.8" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="63.8" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="63.8" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2467,7 +2466,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="64.7" y="22.6" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="-" x="63.8" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="DL301" library="Arduino-diodes" package="RGBLED" value="RGB" x="57.8" y="27.94" smashed="yes" rot="R180">
+<element name="DL301" library="Arduino-diodes" package="RGBLED" value="RGB" x="57.8" y="27.94" rot="R180">
 <attribute name="CODE-ARDUINO" value="2211" x="57.8" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf" x="57.8" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LTRBGFSF-ABCB-QKYO-Z/475-2899-1-ND/2415091" x="57.8" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2476,7 +2475,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="LTRBGFSF-ABCB-QKYO-Z" x="57.8" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="57.8" y="27.94" size="0.6096" layer="25" font="vector" rot="R270" align="center"/>
 </element>
-<element name="FRAME301" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" smashed="yes">
+<element name="FRAME301" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0">
 <attribute name="CODE-ARDUINO" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2484,7 +2483,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q301" library="Arduino-transistors" package="SOT363" value="BSS138PS" x="58.6184" y="31.7772" smashed="yes" rot="R180">
+<element name="Q301" library="Arduino-transistors" package="SOT363" value="BSS138PS" x="58.6184" y="31.7772" rot="R180">
 <attribute name="CODE-ARDUINO" value="2323" x="58.6184" y="31.7772" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" x="58.6184" y="31.7772" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/nxp-semiconductors/BSS138PS,115/568-8393-1-ND/2763927" x="58.6184" y="31.7772" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2493,7 +2492,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="BSS138PS,115" x="58.6184" y="31.7772" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="60.5234" y="31.7772" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
-<element name="R301" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="60.8" y="29.8" smashed="yes" rot="R270">
+<element name="R301" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="60.8" y="29.8" rot="R270">
 <attribute name="CODE-ARDUINO" value="0134" x="60.8" y="29.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="60.8" y="29.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="60.8" y="29.8" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2503,7 +2502,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.3" y="30.7" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="NO" x="60.8" y="29.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R302" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="56" y="31.7" smashed="yes" rot="R270">
+<element name="R302" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="56" y="31.7" rot="R270">
 <attribute name="CODE-ARDUINO" value="0134" x="56" y="31.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="56" y="31.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="56" y="31.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2513,7 +2512,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.5" y="32.6" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="NO" x="56" y="31.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R303" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="53.8" y="24.3" smashed="yes" rot="R180">
+<element name="R303" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="53.8" y="24.3" rot="R180">
 <attribute name="CODE-ARDUINO" value="0039" x="53.8" y="24.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="53.8" y="24.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-070RL/311-0.0LRCT-ND/2827888" x="53.8" y="24.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2523,7 +2522,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="55.4" y="24.1" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="53.8" y="24.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R304" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="53.8" y="25.3" smashed="yes" rot="R180">
+<element name="R304" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="53.8" y="25.3" rot="R180">
 <attribute name="CODE-ARDUINO" value="0039" x="53.8" y="25.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="53.8" y="25.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-070RL/311-0.0LRCT-ND/2827888" x="53.8" y="25.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2533,7 +2532,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="55.4" y="25.1" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="53.8" y="25.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R305" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="53.8" y="27.9" smashed="yes">
+<element name="R305" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="53.8" y="27.9">
 <attribute name="CODE-ARDUINO" value="2229" x="53.8" y="27.9" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="53.8" y="27.9" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07330RL/311-330LRCT-ND/729541" x="53.8" y="27.9" size="1.778" layer="27" display="off"/>
@@ -2543,7 +2542,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.9" y="28.4" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="53.8" y="27.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R306" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="53.8" y="26.3" smashed="yes">
+<element name="R306" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="53.8" y="26.3">
 <attribute name="CODE-ARDUINO" value="2229" x="53.8" y="26.3" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="53.8" y="26.3" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07330RL/311-330LRCT-ND/729541" x="53.8" y="26.3" size="1.778" layer="27" display="off"/>
@@ -2553,7 +2552,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="55.4" y="25.8" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="53.8" y="26.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R307" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="53.8" y="29.7" smashed="yes">
+<element name="R307" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="53.8" y="29.7">
 <attribute name="CODE-ARDUINO" value="2229" x="53.8" y="29.7" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="53.8" y="29.7" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07330RL/311-330LRCT-ND/729541" x="53.8" y="29.7" size="1.778" layer="27" display="off"/>
@@ -2563,7 +2562,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.9" y="30.2" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="53.8" y="29.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R308" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="60.8" y="32.1" smashed="yes" rot="R90">
+<element name="R308" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="60.8" y="32.1" rot="R90">
 <attribute name="CODE-ARDUINO" value="0134" x="60.8" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="60.8" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="60.8" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2573,7 +2572,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.3" y="31.2" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="60.8" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U301" library="Arduino-ucs&amp;SoCs" package="NINA-W1X" value="NINA-W132" x="60.3712" y="16.6096" smashed="yes" rot="R180">
+<element name="U301" library="Arduino-ucs&amp;SoCs" package="NINA-W1X" value="NINA-W132" x="60.3712" y="16.6096" rot="R180">
 <attribute name="CODE-ARDUINO" value="2329" x="60.3712" y="16.6096" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://www.u-blox.com/sites/default/files/NINA-W1_DataSheet_%28UBX-17006694%29.pdf" x="60.3712" y="16.6096" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/u-blox-america-inc/NINA-W132/672-1072-1-ND/7931822" x="60.3712" y="16.6096" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2582,7 +2581,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="NINA-W132" x="60.3712" y="16.6096" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="60.3712" y="16.6096" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="J201" library="Arduino-connectors" package="POWERSUPPLY_DC-21MM" value="-" x="5.334" y="8.382" smashed="yes" rot="R90">
+<element name="J201" library="Arduino-connectors" package="POWERSUPPLY_DC-21MM" value="-" x="5.334" y="8.382" rot="R90">
 <attribute name="CODE-ARDUINO" value="0018" x="5.334" y="8.382" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.mouser.com/ds/2/253/KC-301287-195995.pdf" x="5.334" y="8.382" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.mouser.it/ProductDetail/Kobiconn/163-179PH-EX/?qs=Xb8IjHhkxj5l2UOaIqcGCw==" x="5.334" y="8.382" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2592,7 +2591,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.684" y="14.432" size="1.778" layer="25" ratio="5" rot="R180"/>
 <attribute name="VALUE" x="11.684" y="17.272" size="1.778" layer="27" ratio="5" rot="R180"/>
 </element>
-<element name="FRAME101" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0" smashed="yes">
+<element name="FRAME101" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="0" y="0">
 <attribute name="CODE-ARDUINO" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2600,7 +2599,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C101" library="Arduino-rcl" package="PANASONIC_D" value="47u" x="25.527" y="9.144" smashed="yes" rot="R90">
+<element name="C101" library="Arduino-rcl" package="PANASONIC_D" value="47u" x="25.527" y="9.144" rot="R90">
 <attribute name="CODE-ARDUINO" value="0113" x="25.527" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL90.pdf" x="25.527" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1EA470WP/PCE3908CT-ND/766284" x="25.527" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2610,7 +2609,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.527" y="9.144" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="PN-ALTERNATIVE1" value="TS13C01E470MET000R" x="25.527" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C102" library="Arduino-rcl" package="PANASONIC_D" value="47u" x="18.415" y="9.144" smashed="yes" rot="R90">
+<element name="C102" library="Arduino-rcl" package="PANASONIC_D" value="47u" x="18.415" y="9.144" rot="R90">
 <attribute name="CODE-ARDUINO" value="0113" x="18.415" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL90.pdf" x="18.415" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1EA470WP/PCE3908CT-ND/766284" x="18.415" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2620,7 +2619,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.415" y="9.144" size="1.016" layer="25" rot="R180" align="center"/>
 <attribute name="PN-ALTERNATIVE1" value="TS13C01E470MET000R" x="18.415" y="9.144" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C103" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="15.6" y="13.35" smashed="yes" rot="R180">
+<element name="C103" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="15.6" y="13.35" rot="R180">
 <attribute name="CODE-ARDUINO" value="0132" x="15.6" y="13.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="15.6" y="13.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="15.6" y="13.35" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2630,7 +2629,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.5" y="12.85" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="-" x="15.6" y="13.35" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D101" library="Arduino-diodes" package="SMB_DO214AA" value="1N4007" x="21.59" y="2.794" smashed="yes">
+<element name="D101" library="Arduino-diodes" package="SMB_DO214AA" value="1N4007" x="21.59" y="2.794">
 <attribute name="CODE-ARDUINO" value="0020" x="21.59" y="2.794" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.comchiptech.com/cms/UserFiles/CGRA4001-G%20Thru.%20CGRA4007-HF%20RevD.pdf" x="21.59" y="2.794" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/comchip-technology/CGRA4007-G/641-1018-1-ND/1121140" x="21.59" y="2.794" size="1.778" layer="27" display="off"/>
@@ -2641,7 +2640,7 @@ design rules under a new name.</description>
 <attribute name="PN-ALTERNATIVE1" value="1N4007SMA" x="21.59" y="2.794" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.05" y="2.794" size="0.8128" layer="27" font="vector" rot="R90" align="center"/>
 </element>
-<element name="R127" library="Arduino-rcl" package="0402-1005X55N" value="10k" x="13.9" y="25.9" smashed="yes" rot="R180">
+<element name="R127" library="Arduino-rcl" package="0402-1005X55N" value="10k" x="13.9" y="25.9" rot="R180">
 <attribute name="CODE-ARDUINO" value="0136" x="13.9" y="25.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="20.96" y="15.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRCT-ND/729470" x="20.96" y="15.71" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2651,7 +2650,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.8" y="25.4" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="NO" x="13.9" y="25.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q101" library="Arduino-transistors" package="PWR_SC70" value="DMP2160" x="14.3" y="28.4" smashed="yes" rot="R180">
+<element name="Q101" library="Arduino-transistors" package="PWR_SC70" value="DMP2160" x="14.3" y="28.4" rot="R180">
 <attribute name="CODE-ARDUINO" value="2324" x="14.3" y="28.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.diodes.com/_files/datasheets/ds31643.pdf" x="19.73" y="30.47" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/diodes-incorporated/DMP2160UFDB-7/DMP2160UFDB-7DI-ND/4249940" x="19.73" y="30.47" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2660,7 +2659,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DMP2160UFDB-7" x="19.73" y="30.47" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="14.3" y="28.4" size="0.4064" layer="51" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="R126" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="11.92" y="25.9" smashed="yes">
+<element name="R126" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="11.92" y="25.9">
 <attribute name="CODE-ARDUINO" value="2229" x="11.92" y="25.9" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="8.39" y="31.45" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07330RL/311-330LRCT-ND/729541" x="8.39" y="31.45" size="1.778" layer="27" display="off"/>
@@ -2670,7 +2669,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.02" y="26.4" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="11.92" y="25.9" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q102" library="Arduino-transistors" package="PWR_SC70" value="DMP2160" x="10.93" y="28.39" smashed="yes">
+<element name="Q102" library="Arduino-transistors" package="PWR_SC70" value="DMP2160" x="10.93" y="28.39">
 <attribute name="CODE-ARDUINO" value="2324" x="10.93" y="28.39" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://www.diodes.com/_files/datasheets/ds31643.pdf" x="10.93" y="25.03" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/diodes-incorporated/DMP2160UFDB-7/DMP2160UFDB-7DI-ND/4249940" x="10.93" y="25.03" size="1.778" layer="27" display="off"/>
@@ -2679,7 +2678,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DMP2160UFDB-7" x="10.93" y="25.03" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="10.93" y="28.39" size="0.4064" layer="51" font="vector" ratio="10" align="center"/>
 </element>
-<element name="R128" library="Arduino-rcl" package="0402-1005X55N" value="10k" x="8.92" y="26.19" smashed="yes" rot="R90">
+<element name="R128" library="Arduino-rcl" package="0402-1005X55N" value="10k" x="8.92" y="26.19" rot="R90">
 <attribute name="CODE-ARDUINO" value="0136" x="8.92" y="26.19" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="5.95" y="26.19" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRCT-ND/729470" x="5.95" y="26.19" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2689,7 +2688,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.42" y="25.29" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="8.92" y="26.19" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R124" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="7.6" y="22.7" smashed="yes" rot="R90">
+<element name="R124" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="7.6" y="22.7" rot="R90">
 <attribute name="CODE-ARDUINO" value="0134" x="7.6" y="22.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="10.81" y="15.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="10.81" y="15.64" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2699,7 +2698,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="7.8" y="23.8" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="7.6" y="22.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R123" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="9" y="22.7" smashed="yes" rot="R270">
+<element name="R123" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="9" y="22.7" rot="R270">
 <attribute name="CODE-ARDUINO" value="0134" x="9" y="22.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="3.73" y="26.23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="3.73" y="26.23" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2709,7 +2708,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.3" y="23.8" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="9" y="22.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R125" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="15.66" y="25.49" smashed="yes" rot="R90">
+<element name="R125" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="15.66" y="25.49" rot="R90">
 <attribute name="CODE-ARDUINO" value="0134" x="15.66" y="25.49" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="20.93" y="25.49" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="20.93" y="25.49" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2719,7 +2718,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.16" y="24.59" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="15.66" y="25.49" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C114" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="6" y="22.7" smashed="yes" rot="R270">
+<element name="C114" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="6" y="22.7" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="6" y="22.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="-10" y="22.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="-10" y="22.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2729,7 +2728,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.2" y="23.8" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="6" y="22.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C104" library="Arduino-rcl" package="0603-1608X90N" value="10u" x="16.06" y="22.13" smashed="yes" rot="R90">
+<element name="C104" library="Arduino-rcl" package="0603-1608X90N" value="10u" x="16.06" y="22.13" rot="R90">
 <attribute name="CODE-ARDUINO" value="2213" x="16.06" y="22.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf " x="16.06" y="22.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-search/en?keywords=490-10728-1-ND " x="16.06" y="22.13" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2744,7 +2743,7 @@ design rules under a new name.</description>
 <attribute name="PN-ALTERNATIVE4" value="" x="16.06" y="22.13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-ALTERNATIVE5" value="" x="16.06" y="22.13" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C105" library="Arduino-rcl" package="0603-1608X90N" value="10u" x="13.35" y="13.82" smashed="yes" rot="R270">
+<element name="C105" library="Arduino-rcl" package="0603-1608X90N" value="10u" x="13.35" y="13.82" rot="R270">
 <attribute name="CODE-ARDUINO" value="2213" x="13.35" y="13.82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf " x="13.35" y="13.82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-search/en?keywords=490-10728-1-ND " x="13.35" y="13.82" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2759,7 +2758,7 @@ design rules under a new name.</description>
 <attribute name="PN-ALTERNATIVE4" value="" x="13.35" y="13.82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN-ALTERNATIVE5" value="" x="13.35" y="13.82" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C106" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17.8" y="22.5" smashed="yes" rot="R90">
+<element name="C106" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17.8" y="22.5" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="17.8" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="17.8" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="17.8" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2769,7 +2768,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.3" y="21.6" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="17.8" y="22.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C801" library="Arduino-rcl" package="0805-R2013X50N" value="4n7" x="4.6" y="27.7" smashed="yes" rot="R270">
+<element name="C801" library="Arduino-rcl" package="0805-R2013X50N" value="4n7" x="4.6" y="27.7" rot="R270">
 <attribute name="CODE-ARDUINO" value="0689" x="4.6" y="27.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/40/KEM_C1010_X7R_HV_SMD.pdf" x="4.6" y="27.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="www.kemet.com/docfinder?Partnumber=C0805C472KDRACTU" x="4.6" y="27.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2779,7 +2778,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.87" y="27.7" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 <attribute name="NOTE" value="-" x="4.6" y="27.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R801" library="Arduino-rcl" package="0402-1005X55N" value="1M" x="7.2" y="28.2" smashed="yes" rot="R90">
+<element name="R801" library="Arduino-rcl" package="0402-1005X55N" value="1M" x="7.2" y="28.2" rot="R90">
 <attribute name="CODE-ARDUINO" value="0139" x="7.2" y="28.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="7.2" y="28.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402JR-07330RL/311-330JRCT-ND/729412 " x="7.2" y="28.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2789,7 +2788,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.7" y="27.3" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="7.2" y="28.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="F801" library="Arduino-rcl" package="C0805" value="" x="11.75" y="35.4" smashed="yes" rot="R90">
+<element name="F801" library="Arduino-rcl" package="C0805" value="" x="11.75" y="35.4" rot="R90">
 <attribute name="CODE-ARDUINO" value="0002" x="11.75" y="35.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="https://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf" x="11.75" y="35.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.it/product-detail/en/bourns-inc/MF-MSMF050-2/MF-MSMF050-2CT-ND/662842" x="11.75" y="35.4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2798,7 +2797,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="MF-MSMF050-2 " x="11.75" y="35.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.7975" y="34.13" size="0.6096" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="L801" library="Arduino-rcl" package="0603-1608X90N" value="BLM18PG471" x="14.45" y="34.6" smashed="yes">
+<element name="L801" library="Arduino-rcl" package="0603-1608X90N" value="BLM18PG471" x="14.45" y="34.6">
 <attribute name="CODE-ARDUINO" value="2217" x="14.45" y="34.6" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0100BLM18P.pdf" x="14.45" y="34.6" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/BLM18PG471SN1D/490-5223-1-ND/1948399" x="14.45" y="34.6" size="1.778" layer="27" display="off"/>
@@ -2808,7 +2807,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.18" y="35.5525" size="0.6096" layer="25" font="vector" ratio="10"/>
 <attribute name="NOTE" value="-" x="14.45" y="34.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C802" library="Arduino-rcl" package="0402-1005X55N" value="1n" x="11.75" y="32.65" smashed="yes" rot="R270">
+<element name="C802" library="Arduino-rcl" package="0402-1005X55N" value="1n" x="11.75" y="32.65" rot="R270">
 <attribute name="CODE-ARDUINO" value="2321" x="11.75" y="32.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B102KB5NNNC.pdf" x="11.75" y="32.65" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL05B102KB5NNNC/1276-1032-1-ND/3889118" x="11.75" y="32.65" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2818,7 +2817,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.25" y="33.55" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="11.75" y="32.65" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C803" library="Arduino-rcl" package="0402-1005X55N" value="1n" x="15.9" y="32.3" smashed="yes" rot="R270">
+<element name="C803" library="Arduino-rcl" package="0402-1005X55N" value="1n" x="15.9" y="32.3" rot="R270">
 <attribute name="CODE-ARDUINO" value="2321" x="15.9" y="32.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL05B102KB5NNNC.pdf" x="15.9" y="32.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL05B102KB5NNNC/1276-1032-1-ND/3889118" x="15.9" y="32.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2828,7 +2827,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.9" y="33.1" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="15.9" y="32.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D801" library="Arduino-diodes" package="SOT190P230X110-4N" value="PRTR5V" x="12.55" y="39.51" smashed="yes" rot="R90">
+<element name="D801" library="Arduino-diodes" package="SOT190P230X110-4N" value="PRTR5V" x="12.55" y="39.51" rot="R90">
 <attribute name="CODE-ARDUINO" value="2209" x="12.55" y="39.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.nxp.com/documents/data_sheet/PRTR5V0U2X.pdf" x="12.55" y="39.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/nxp-semiconductors/PRTR5V0U2X,215/568-4140-1-ND/1589981" x="12.55" y="39.51" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2837,7 +2836,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="PRTR5V0U2X,215" x="12.55" y="39.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.55" y="39.51" size="0.4064" layer="51" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="U801" library="Arduino-ucs&amp;SoCs" package="QFN50P700X700X100-45N" value=" ATMEGA32U4RC" x="21.53" y="36.28" smashed="yes">
+<element name="U801" library="Arduino-ucs&amp;SoCs" package="QFN50P700X700X100-45N" value=" ATMEGA32U4RC" x="21.53" y="36.28">
 <attribute name="CODE-ARDUINO" value="0159" x="21.53" y="36.28" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" x="21.53" y="36.28" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4RC-MU/ATMEGA32U4RC-MU-ND/2507984" x="21.53" y="36.28" size="1.778" layer="27" display="off"/>
@@ -2846,7 +2845,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="ATMEGA32U4RC-MU" x="21.53" y="36.28" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.377" y="34.1982" size="0.6096" layer="25" ratio="10" rot="SR0"/>
 </element>
-<element name="R802" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="16.8" y="41.7" smashed="yes" rot="R90">
+<element name="R802" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="16.8" y="41.7" rot="R90">
 <attribute name="CODE-ARDUINO" value="2229" x="16.8" y="41.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="16.8" y="41.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07330RL/311-330LRCT-ND/729541" x="16.8" y="41.7" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2856,7 +2855,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.3" y="40.8" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="16.8" y="41.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C804" library="Arduino-rcl" package="0402-1005X55N" value="1u" x="13.8" y="36.3" smashed="yes" rot="R180">
+<element name="C804" library="Arduino-rcl" package="0402-1005X55N" value="1u" x="13.8" y="36.3" rot="R180">
 <attribute name="CODE-ARDUINO" value="0133" x="13.8" y="36.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" x="13.8" y="36.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R61E105KA12D/490-10017-1-ND/5026367" x="13.8" y="36.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2866,7 +2865,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.7" y="35.8" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="-" x="13.8" y="36.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="ON100" library="Arduino-diodes" package="LEDC1608X80N-AK" value="GREEN" x="58.42" y="36.576" smashed="yes">
+<element name="ON100" library="Arduino-diodes" package="LEDC1608X80N-AK" value="GREEN" x="58.42" y="36.576">
 <attribute name="CODE-ARDUINO" value="2204" x="58.42" y="36.576" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf" x="58.42" y="36.576" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/broadcom-limited/HSMG-C190/516-1425-1-ND/637749" x="58.42" y="36.576" size="1.778" layer="27" display="off"/>
@@ -2875,7 +2874,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="HSMG-C190 " x="58.42" y="36.576" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.42" y="36.576" size="0.4064" layer="51" font="vector" ratio="10" align="center"/>
 </element>
-<element name="R101" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="57.62" y="38.65" smashed="yes" rot="R90">
+<element name="R101" library="Arduino-rcl" package="0402-1005X55N" value="330R" x="57.62" y="38.65" rot="R90">
 <attribute name="CODE-ARDUINO" value="2229" x="57.62" y="38.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="57.62" y="38.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07330RL/311-330LRCT-ND/729541" x="57.62" y="38.65" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2885,7 +2884,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="57.12" y="37.75" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="57.62" y="38.65" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R803" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="17.9" y="30.6" smashed="yes" rot="R270">
+<element name="R803" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="17.9" y="30.6" rot="R270">
 <attribute name="CODE-ARDUINO" value="0134" x="17.9" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="17.9" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="17.9" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2895,7 +2894,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.4" y="31.5" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="NO" x="17.9" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C805" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17" y="32.6" smashed="yes" rot="R90">
+<element name="C805" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17" y="32.6" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="17" y="32.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="17" y="32.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="17" y="32.6" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2905,7 +2904,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18" y="31.8" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="17" y="32.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C806" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17.9" y="28.35" smashed="yes" rot="R270">
+<element name="C806" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="17.9" y="28.35" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="17.9" y="28.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="17.9" y="28.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="17.9" y="28.35" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2915,7 +2914,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.4" y="29.25" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="17.9" y="28.35" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R804" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="26.4979875" y="28.2868625" smashed="yes" rot="R135">
+<element name="R804" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="26.4979875" y="28.2868625" rot="R135">
 <attribute name="CODE-ARDUINO" value="0140" x="26.4979875" y="28.2868625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="26.4979875" y="28.2868625" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-071KL/311-1.00KLRCT-ND/729460 " x="26.4979875" y="28.2868625" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2925,7 +2924,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.780828125" y="28.3969125" size="0.4064" layer="51" font="vector" ratio="10" rot="R135"/>
 <attribute name="NOTE" value="NO" x="26.4979875" y="28.2868625" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="R805" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="25.657571875" y="27.370709375" smashed="yes" rot="R135">
+<element name="R805" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="25.657571875" y="27.370709375" rot="R135">
 <attribute name="CODE-ARDUINO" value="0140" x="25.657571875" y="27.370709375" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="25.657571875" y="27.370709375" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-071KL/311-1.00KLRCT-ND/729460 " x="25.657571875" y="27.370709375" size="1.778" layer="27" rot="R135" display="off"/>
@@ -2935,7 +2934,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.9404125" y="26.380759375" size="0.4064" layer="51" font="vector" ratio="10" rot="R135"/>
 <attribute name="NOTE" value="NO" x="25.657571875" y="27.370709375" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="C807" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="26.8" y="31.2" smashed="yes" rot="R270">
+<element name="C807" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="26.8" y="31.2" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="26.8" y="31.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="26.8" y="31.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="26.8" y="31.2" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2945,7 +2944,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.3" y="32.1" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="26.8" y="31.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R806" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="29.03" y="32.71" smashed="yes">
+<element name="R806" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="29.03" y="32.71">
 <attribute name="CODE-ARDUINO" value="0039" x="29.03" y="32.71" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="29.03" y="32.71" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-070RL/311-0.0LRCT-ND/2827888" x="29.03" y="32.71" size="1.778" layer="27" display="off"/>
@@ -2955,7 +2954,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.13" y="33.21" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="29.03" y="32.71" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R807" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="30.9" y="35.35" smashed="yes">
+<element name="R807" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="30.9" y="35.35">
 <attribute name="CODE-ARDUINO" value="0140" x="30.9" y="35.35" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="30.9" y="35.35" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-071KL/311-1.00KLRCT-ND/729460 " x="30.9" y="35.35" size="1.778" layer="27" display="off"/>
@@ -2965,7 +2964,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30" y="35.85" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="30.9" y="35.35" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R808" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="30.9" y="38.025" smashed="yes">
+<element name="R808" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="30.9" y="38.025">
 <attribute name="CODE-ARDUINO" value="0140" x="30.9" y="38.025" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="30.9" y="38.025" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-071KL/311-1.00KLRCT-ND/729460 " x="30.9" y="38.025" size="1.778" layer="27" display="off"/>
@@ -2975,7 +2974,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30" y="38.525" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="30.9" y="38.025" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LTX800" library="Arduino-diodes" package="LEDC1608X80N-AK" value="YELLOW" x="27.94" y="36.576" smashed="yes">
+<element name="LTX800" library="Arduino-diodes" package="LEDC1608X80N-AK" value="YELLOW" x="27.94" y="36.576">
 <attribute name="CODE-ARDUINO" value="2243" x="27.94" y="36.576" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf" x="27.94" y="36.576" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/broadcom-limited/HSMY-C190/516-1424-1-ND/637748" x="27.94" y="36.576" size="1.778" layer="27" display="off"/>
@@ -2984,7 +2983,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="HSMY-C190" x="27.94" y="36.576" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.94" y="36.576" size="0.4064" layer="51" font="vector" ratio="10" align="center"/>
 </element>
-<element name="LRX800" library="Arduino-diodes" package="LEDC1608X80N-AK" value="YELLOW" x="27.94" y="34.29" smashed="yes">
+<element name="LRX800" library="Arduino-diodes" package="LEDC1608X80N-AK" value="YELLOW" x="27.94" y="34.29">
 <attribute name="CODE-ARDUINO" value="2243" x="27.94" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf" x="27.94" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/broadcom-limited/HSMY-C190/516-1424-1-ND/637748" x="27.94" y="34.29" size="1.778" layer="27" display="off"/>
@@ -2993,7 +2992,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="HSMY-C190" x="27.94" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.94" y="34.29" size="0.4064" layer="51" font="vector" ratio="10" align="center"/>
 </element>
-<element name="R809" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="26.8" y="39.3" smashed="yes" rot="R90">
+<element name="R809" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="26.8" y="39.3" rot="R90">
 <attribute name="CODE-ARDUINO" value="0134" x="26.8" y="39.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="26.8" y="39.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="26.8" y="39.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3003,7 +3002,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.3" y="38.4" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="26.8" y="39.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R810" library="Arduino-rcl" package="0402-1005X55N" value="DNP" x="28.2" y="39.3" smashed="yes" rot="R270">
+<element name="R810" library="Arduino-rcl" package="0402-1005X55N" value="DNP" x="28.2" y="39.3" rot="R270">
 <attribute name="CODE-ARDUINO" value="DNP" x="28.2" y="39.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="28.2" y="39.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="28.2" y="39.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3013,7 +3012,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.7" y="40.2" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="NO" x="28.2" y="39.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C808" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="24.9" y="40.85" smashed="yes" rot="R270">
+<element name="C808" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="24.9" y="40.85" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="24.9" y="40.85" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="24.9" y="40.85" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="24.9" y="40.85" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3023,7 +3022,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.4" y="41.75" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="24.9" y="40.85" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C809" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="18.6" y="41.3" smashed="yes">
+<element name="C809" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="18.6" y="41.3">
 <attribute name="CODE-ARDUINO" value="0132" x="18.6" y="41.3" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="18.6" y="41.3" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="18.6" y="41.3" size="1.778" layer="27" display="off"/>
@@ -3033,7 +3032,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.7" y="41.8" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="-" x="18.6" y="41.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="USR" library="Arduino-diodes" package="LEDC1608X80N-AK" value="YELLOW" x="27.94" y="42.164" smashed="yes">
+<element name="USR" library="Arduino-diodes" package="LEDC1608X80N-AK" value="YELLOW" x="27.94" y="42.164">
 <attribute name="CODE-ARDUINO" value="2243" x="27.94" y="42.164" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/HSMz-Czzz.pdf" x="27.94" y="42.164" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/broadcom-limited/HSMY-C190/516-1424-1-ND/637748" x="27.94" y="42.164" size="1.778" layer="27" display="off"/>
@@ -3042,7 +3041,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="HSMY-C190" x="27.94" y="42.164" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.94" y="42.164" size="0.4064" layer="51" font="vector" ratio="10" align="center"/>
 </element>
-<element name="R1" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="26.7" y="43.9" smashed="yes" rot="R180">
+<element name="R1" library="Arduino-rcl" package="0402-1005X55N" value="1k" x="26.7" y="43.9" rot="R180">
 <attribute name="CODE-ARDUINO" value="0140" x="26.7" y="43.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="26.7" y="43.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-071KL/311-1.00KLRCT-ND/729460 " x="26.7" y="43.9" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3052,7 +3051,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="27.6" y="43.4" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="NO" x="26.7" y="43.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="Arduino-rcl" package="C0603" value="0R" x="14.25" y="20.4" smashed="yes" rot="R270">
+<element name="R2" library="Arduino-rcl" package="C0603" value="0R" x="14.25" y="20.4" rot="R270">
 <attribute name="CODE-ARDUINO" value="0233" x="14.25" y="20.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf" x="14.25" y="20.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-070RL/311-0.0GRCT-ND/729622" x="14.25" y="20.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3063,7 +3062,7 @@ design rules under a new name.</description>
 <attribute name="NOTE" value="NO" x="14.25" y="20.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PN-ALTERNATIVE1" value="" x="14.25" y="20.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="Arduino-rcl" package="C0603" value="DNP" x="14.25" y="17.3" smashed="yes" rot="R90">
+<element name="R3" library="Arduino-rcl" package="C0603" value="DNP" x="14.25" y="17.3" rot="R90">
 <attribute name="CODE-ARDUINO" value="DNP" x="14.25" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="14.25" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="14.25" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3074,7 +3073,7 @@ design rules under a new name.</description>
 <attribute name="NOTE" value="DNP" x="14.25" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PN-ALTERNATIVE1" value="" x="14.25" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="X801" library="Arduino-crystals" package="CRYSTAL-3.2-2.5" value="16MHz" x="21.1" y="26.1" smashed="yes" rot="R270">
+<element name="X801" library="Arduino-crystals" package="CRYSTAL-3.2-2.5" value="16MHz" x="21.1" y="26.1" rot="R270">
 <attribute name="CODE-ARDUINO" value="0395" x="21.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="https://www.ecsxtal.com/store/pdf/ECX-33Q.pdf" x="21.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/ecs-inc/ECS-160-12-33Q-JES-TR/XC2147CT-ND/6050976" x="21.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3083,7 +3082,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="ECS-160-12-33Q-JES-TR" x="21.1" y="26.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="23.3" y="26.1" size="1.27" layer="25" rot="R270" align="center"/>
 </element>
-<element name="C810" library="Arduino-rcl" package="0402-1005X55N" value="12pF" x="21.475" y="23.1" smashed="yes" rot="R180">
+<element name="C810" library="Arduino-rcl" package="0402-1005X55N" value="12pF" x="21.475" y="23.1" rot="R180">
 <attribute name="CODE-ARDUINO" value="A5006" x="21.475" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" x="21.475" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GJM1555C1H120GB01D/490-8078-1-ND/4380364" x="21.475" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3093,7 +3092,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.375" y="22.6" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="-" x="21.475" y="23.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C811" library="Arduino-rcl" package="0402-1005X55N" value="12pF" x="17.9" y="26" smashed="yes" rot="R90">
+<element name="C811" library="Arduino-rcl" package="0402-1005X55N" value="12pF" x="17.9" y="26" rot="R90">
 <attribute name="CODE-ARDUINO" value="A5006" x="17.9" y="26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf" x="17.9" y="26" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GJM1555C1H120GB01D/490-8078-1-ND/4380364" x="17.9" y="26" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3103,7 +3102,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.4" y="25.1" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="17.9" y="26" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Q105" library="Arduino-transistors" package="SOT363" value="BSS138PS" x="12.1" y="22.9" smashed="yes" rot="R180">
+<element name="Q105" library="Arduino-transistors" package="SOT363" value="BSS138PS" x="12.1" y="22.9" rot="R180">
 <attribute name="CODE-ARDUINO" value="2323" x="12.1" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BSS138PS.pdf" x="12.1" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/nxp-semiconductors/BSS138PS,115/568-8393-1-ND/2763927" x="12.1" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3112,7 +3111,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="BSS138PS,115" x="12.1" y="22.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="14.005" y="22.9" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
-<element name="RST800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="15.748" y="47.498" smashed="yes">
+<element name="RST800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="15.748" y="47.498">
 <attribute name="CODE-ARDUINO" value="DNP" x="15.748" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="15.748" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="15.748" y="47.498" size="1.778" layer="27" display="off"/>
@@ -3121,7 +3120,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="15.748" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.748" y="48.387" size="0.3048" layer="22" rot="SMR0" align="center"/>
 </element>
-<element name="SCK800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="18.288" y="47.498" smashed="yes">
+<element name="SCK800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="18.288" y="47.498">
 <attribute name="CODE-ARDUINO" value="DNP" x="18.288" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="18.288" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="18.288" y="47.498" size="1.778" layer="27" display="off"/>
@@ -3130,7 +3129,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="18.288" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.288" y="48.387" size="0.3048" layer="22" rot="SMR0" align="center"/>
 </element>
-<element name="MISO800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="20.828" y="47.498" smashed="yes">
+<element name="MISO800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="20.828" y="47.498">
 <attribute name="CODE-ARDUINO" value="DNP" x="20.828" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="20.828" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="20.828" y="47.498" size="1.778" layer="27" display="off"/>
@@ -3139,7 +3138,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="20.828" y="47.498" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.828" y="48.387" size="0.3048" layer="22" rot="SMR0" align="center"/>
 </element>
-<element name="MOSI800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="18.288" y="44.958" smashed="yes">
+<element name="MOSI800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="18.288" y="44.958">
 <attribute name="CODE-ARDUINO" value="DNP" x="18.288" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="18.288" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="18.288" y="44.958" size="1.778" layer="27" display="off"/>
@@ -3148,7 +3147,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="18.288" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.288" y="45.847" size="0.3048" layer="22" rot="SMR0" align="center"/>
 </element>
-<element name="VDD800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="20.828" y="44.958" smashed="yes">
+<element name="VDD800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="20.828" y="44.958">
 <attribute name="CODE-ARDUINO" value="DNP" x="20.828" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="20.828" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="20.828" y="44.958" size="1.778" layer="27" display="off"/>
@@ -3157,7 +3156,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="20.828" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.828" y="45.847" size="0.3048" layer="22" rot="SMR0" align="center"/>
 </element>
-<element name="GND800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="15.748" y="44.958" smashed="yes">
+<element name="GND800" library="Arduino-utility" package="TP-1.00MM" value="DNP" x="15.748" y="44.958">
 <attribute name="CODE-ARDUINO" value="DNP" x="15.748" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="15.748" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="15.748" y="44.958" size="1.778" layer="27" display="off"/>
@@ -3166,7 +3165,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="15.748" y="44.958" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.748" y="45.847" size="0.3048" layer="22" rot="SMR0" align="center"/>
 </element>
-<element name="R309" library="Arduino-rcl" package="0402-1005X55N" value="DNP" x="61.85" y="32.1" smashed="yes" rot="R90">
+<element name="R309" library="Arduino-rcl" package="0402-1005X55N" value="DNP" x="61.85" y="32.1" rot="R90">
 <attribute name="CODE-ARDUINO" value="DNP" x="61.85" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="61.85" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="61.85" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3176,7 +3175,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.35" y="31.2" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="61.85" y="32.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R811" library="Arduino-rcl" package="0402-1005X55N" value="22R" x="15.9292875" y="39.058578125" smashed="yes" rot="R135">
+<element name="R811" library="Arduino-rcl" package="0402-1005X55N" value="22R" x="15.9292875" y="39.058578125" rot="R135">
 <attribute name="CODE-ARDUINO" value="0468" x="15.9292875" y="39.058578125" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="15.9292875" y="39.058578125" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/products/en?keywords=311-22.0LRCT-ND" x="15.9292875" y="39.058578125" size="1.778" layer="27" rot="R135" display="off"/>
@@ -3186,7 +3185,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.611090625" y="40.08388125" size="0.4064" layer="51" font="vector" ratio="10" rot="R315"/>
 <attribute name="NOTE" value="NO" x="15.9292875" y="39.058578125" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="R812" library="Arduino-rcl" package="0402-1005X55N" value="22R" x="15.09141875" y="38.158578125" smashed="yes" rot="R135">
+<element name="R812" library="Arduino-rcl" package="0402-1005X55N" value="22R" x="15.09141875" y="38.158578125" rot="R135">
 <attribute name="CODE-ARDUINO" value="0468" x="15.09141875" y="38.158578125" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="15.09141875" y="38.158578125" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/products/en?keywords=311-22.0LRCT-ND" x="15.09141875" y="38.158578125" size="1.778" layer="27" rot="R135" display="off"/>
@@ -3196,7 +3195,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.783271875" y="38.19393125" size="0.4064" layer="51" font="vector" ratio="10" rot="R315"/>
 <attribute name="NOTE" value="NO" x="15.09141875" y="38.158578125" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="R310" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="53.8" y="23.3" smashed="yes">
+<element name="R310" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="53.8" y="23.3">
 <attribute name="CODE-ARDUINO" value="0039" x="53.8" y="23.3" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="53.8" y="23.3" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-070RL/311-0.0LRCT-ND/2827888" x="53.8" y="23.3" size="1.778" layer="27" display="off"/>
@@ -3206,7 +3205,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="55" y="23.25" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="53.8" y="23.3" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP801" library="Arduino-utility" package="TP-1.27MM" value="DNP" x="30.85" y="40.3" smashed="yes" rot="MR0">
+<element name="TP801" library="Arduino-utility" package="TP-1.27MM" value="DNP" x="30.85" y="40.3" rot="MR0">
 <attribute name="CODE-ARDUINO" value="DNP" x="30.85" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="30.85" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="30.85" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3215,7 +3214,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER-PN" value="DNP" x="30.85" y="40.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="33.39" y="41.57" size="1.27" layer="47" rot="SMR0"/>
 </element>
-<element name="IC105" library="Arduino-ICs" package="MPM3610" value="MPM3610" x="18.8" y="16.2" smashed="yes" rot="R270">
+<element name="IC105" library="Arduino-ICs" package="MPM3610" value="MPM3610" x="18.8" y="16.2" rot="R270">
 <attribute name="CODE-ARDUINO" value="2093" x="18.8" y="16.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="https://www.monolithicpower.com/pub/media/document/MPM3610_r1.01.pdf" x="18.8" y="16.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/monolithic-power-systems-inc/MPM3610AGQV-P/1589-1249-1-ND/5298336" x="18.8" y="16.2" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3226,7 +3225,7 @@ design rules under a new name.</description>
 <attribute name="RESTRICTIONS" value="NO" x="18.8" y="16.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="15.55" y="17.55" size="0.25" layer="27" rot="R270"/>
 </element>
-<element name="R102" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="19.125" y="19.825" smashed="yes" rot="R180">
+<element name="R102" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="19.125" y="19.825" rot="R180">
 <attribute name="CODE-ARDUINO" value="0134" x="19.125" y="19.825" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="19.125" y="19.825" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="19.125" y="19.825" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3236,7 +3235,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.025" y="19.325" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="NO" x="19.125" y="19.825" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R129" library="Arduino-rcl" package="0402-1005X55N" value="19k1" x="21.375" y="19.75" smashed="yes" rot="R180">
+<element name="R129" library="Arduino-rcl" package="0402-1005X55N" value="19k1" x="21.375" y="19.75" rot="R180">
 <attribute name="CODE-ARDUINO" value="A5369" x="21.375" y="19.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="21.375" y="19.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0402FR-0719K1L/311-19.1KLRCT-ND/729499" x="21.375" y="19.75" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3246,7 +3245,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.275" y="19.25" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="1% ONLY" x="21.375" y="19.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R130" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="22.85" y="16.9" smashed="yes" rot="R90">
+<element name="R130" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="22.85" y="16.9" rot="R90">
 <attribute name="CODE-ARDUINO" value="0134" x="22.85" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="22.85" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="22.85" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3256,7 +3255,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.35" y="16" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="22.85" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R131" library="Arduino-rcl" package="0402-1005X55N" value="53k6" x="21.4" y="18.575" smashed="yes" rot="R180">
+<element name="R131" library="Arduino-rcl" package="0402-1005X55N" value="53k6" x="21.4" y="18.575" rot="R180">
 <attribute name="CODE-ARDUINO" value="A5313" x="21.4" y="18.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="21.4" y="18.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0402FR-0753K6L/311-53.6KLRCT-ND/729581" x="21.4" y="18.575" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3266,7 +3265,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.3" y="18.075" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="1% ONLY" x="21.4" y="18.575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R11" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="40.175" y="10.45" smashed="yes" rot="R180">
+<element name="R11" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="40.175" y="10.45" rot="R180">
 <attribute name="CODE-ARDUINO" value="0134" x="40.175" y="10.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="40.175" y="10.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="40.175" y="10.45" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3276,7 +3275,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="41.075" y="9.95" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="NO" x="40.175" y="10.45" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC1" library="Arduino-ICs" package="SC70-5" value="74LVC1G125DCKR" x="39.925" y="12.275" smashed="yes" rot="R90">
+<element name="IC1" library="Arduino-ICs" package="SC70-5" value="74LVC1G125DCKR" x="39.925" y="12.275" rot="R90">
 <attribute name="CODE-ARDUINO" value="0040" x="39.925" y="12.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf" x="39.925" y="12.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G125DCKR/296-11604-1-ND/385743" x="39.925" y="12.275" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3287,7 +3286,7 @@ design rules under a new name.</description>
 <attribute name="NOTE" value="NO" x="39.925" y="12.275" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.465" y="9.735" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IC2" library="Arduino-ICs" package="SC70-5" value="74LVC1G125DCKR" x="39.9" y="14.85" smashed="yes" rot="R90">
+<element name="IC2" library="Arduino-ICs" package="SC70-5" value="74LVC1G125DCKR" x="39.9" y="14.85" rot="R90">
 <attribute name="CODE-ARDUINO" value="0040" x="39.9" y="14.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf" x="39.9" y="14.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/texas-instruments/SN74LVC1G125DCKR/296-11604-1-ND/385743" x="39.9" y="14.85" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3298,7 +3297,7 @@ design rules under a new name.</description>
 <attribute name="NOTE" value="NO" x="39.9" y="14.85" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.44" y="12.31" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R5" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="40.175" y="16.7" smashed="yes" rot="R180">
+<element name="R5" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="40.175" y="16.7" rot="R180">
 <attribute name="CODE-ARDUINO" value="0134" x="40.175" y="16.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="40.175" y="16.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="40.175" y="16.7" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3308,7 +3307,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="41.075" y="16.2" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="NO" x="40.175" y="16.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC101" library="Arduino-ICs" package="SOT223" value="-" x="7.475" y="17.4" smashed="yes" rot="R180">
+<element name="IC101" library="Arduino-ICs" package="SOT223" value="-" x="7.475" y="17.4" rot="R180">
 <attribute name="CODE-ARDUINO" value="0045" x="7.475" y="17.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/NX1117C(E).pdf" x="7.475" y="17.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/NX1117CE33Z,115/568-8443-1-ND/2765160" x="7.475" y="17.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3319,7 +3318,7 @@ design rules under a new name.</description>
 <attribute name="NOTE" value="NO" x="7.475" y="17.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.84" y="17.4" size="0.8128" layer="27" font="vector" ratio="10" rot="R90" align="center"/>
 </element>
-<element name="FRAME501" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="-33.75" y="0.6" smashed="yes">
+<element name="FRAME501" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="-33.75" y="0.6">
 <attribute name="CODE-ARDUINO" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
@@ -3327,7 +3326,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U502" library="Arduino-ICs" package="TSSOP24" value="MC74LVX4245" x="47.225" y="22.875" smashed="yes" rot="R270">
+<element name="U502" library="Arduino-ICs" package="TSSOP24" value="MC74LVX4245" x="47.225" y="22.875" rot="R270">
 <attribute name="CODE-ARDUINO" value="A5327" x="47.225" y="27.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/MC74LVX4245-D.PDF" x="47.225" y="27.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/on-semiconductor/MC74LVX4245DTR2G/MC74LVX4245DTR2GOSCT-ND/2120954" x="47.225" y="27.05" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3337,7 +3336,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="47.225" y="22.875" size="1.016" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="NOTE" value="NO" x="47.225" y="27.05" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C504" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="44.275" y="28.075" smashed="yes" rot="R90">
+<element name="C504" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="44.275" y="28.075" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="37.325" y="16.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="37.325" y="16.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="37.325" y="16.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3347,7 +3346,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.775" y="27.175" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="37.325" y="16.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C505" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="50.55" y="27.875" smashed="yes" rot="R90">
+<element name="C505" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="50.55" y="27.875" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="43.6" y="16.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="43.6" y="16.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="43.6" y="16.45" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3357,7 +3356,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.05" y="26.975" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="43.6" y="16.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U504" library="Arduino-ICs" package="TSSOP24" value="MC74LVX4245" x="47.2" y="14.5" smashed="yes" rot="R270">
+<element name="U504" library="Arduino-ICs" package="TSSOP24" value="MC74LVX4245" x="47.2" y="14.5" rot="R270">
 <attribute name="CODE-ARDUINO" value="A5327" x="43.05" y="22.825" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/MC74LVX4245-D.PDF" x="43.05" y="22.825" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.com/product-detail/en/on-semiconductor/MC74LVX4245DTR2G/MC74LVX4245DTR2GOSCT-ND/2120954" x="43.05" y="22.825" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3367,7 +3366,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="47.2" y="14.5" size="1.016" layer="25" ratio="10" rot="R270" align="center"/>
 <attribute name="NOTE" value="NO" x="43.05" y="22.825" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C503" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="42.725" y="19.425" smashed="yes" rot="R90">
+<element name="C503" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="42.725" y="19.425" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="46.875" y="10.675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="46.875" y="10.675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="46.875" y="10.675" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3377,7 +3376,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.225" y="18.525" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="46.875" y="10.675" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R504" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="42.725" y="17.4" smashed="yes" rot="R90">
+<element name="R504" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="42.725" y="17.4" rot="R90">
 <attribute name="CODE-ARDUINO" value="0134" x="46.875" y="8.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="46.875" y="8.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="46.875" y="8.65" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3387,7 +3386,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.225" y="16.5" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="NO" x="46.875" y="8.65" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C506" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="52.275" y="15.05" smashed="yes" rot="R270">
+<element name="C506" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="52.275" y="15.05" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="48.125" y="23.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="48.125" y="23.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="48.125" y="23.35" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3397,7 +3396,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.775" y="15.95" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="48.125" y="23.35" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U601" library="Arduino-ICs" package="VFSOP-8" value="TXS0102" x="52.4" y="33.975" smashed="yes" rot="R180">
+<element name="U601" library="Arduino-ICs" package="VFSOP-8" value="TXS0102" x="52.4" y="33.975" rot="R180">
 <attribute name="CODE-ARDUINO" value="A5332" x="52.4" y="33.975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/txs0102.pdf" x="52.4" y="33.975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/texas-instruments/TXS0102DCURG4/296-41875-1-ND/5224578" x="52.4" y="33.975" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3408,7 +3407,7 @@ design rules under a new name.</description>
 <attribute name="NOTE" value="NO" x="52.4" y="33.975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="52.65" y="34.875" size="0.254" layer="25" rot="R270"/>
 </element>
-<element name="R605" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="50.975" y="30.55" smashed="yes" rot="R180">
+<element name="R605" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="50.975" y="30.55" rot="R180">
 <attribute name="CODE-ARDUINO" value="0134" x="50.975" y="30.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="50.975" y="30.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="50.975" y="30.55" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3418,7 +3417,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="51.875" y="30.05" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="NO" x="50.975" y="30.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C601" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="52.225" y="29.55" smashed="yes" rot="R270">
+<element name="C601" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="52.225" y="29.55" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="52.225" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="52.225" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="52.225" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3428,7 +3427,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.725" y="30.45" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="52.225" y="29.55" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C602" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="54.4" y="35.5" smashed="yes" rot="R270">
+<element name="C602" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="54.4" y="35.5" rot="R270">
 <attribute name="CODE-ARDUINO" value="0132" x="54.4" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="54.4" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="54.4" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3438,7 +3437,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.9" y="36.4" size="0.4064" layer="51" font="vector" ratio="10" rot="R270"/>
 <attribute name="NOTE" value="-" x="54.4" y="35.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C603" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="54.425" y="33.2" smashed="yes" rot="R90">
+<element name="C603" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="54.425" y="33.2" rot="R90">
 <attribute name="CODE-ARDUINO" value="0132" x="54.425" y="33.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="54.425" y="33.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="54.425" y="33.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3448,7 +3447,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.925" y="32.3" size="0.4064" layer="51" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTE" value="-" x="54.425" y="33.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C401" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="58.5" y="10.525" smashed="yes">
+<element name="C401" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="58.5" y="10.525">
 <attribute name="CODE-ARDUINO" value="0132" x="58.5" y="10.525" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="58.5" y="10.525" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="58.5" y="10.525" size="1.778" layer="27" display="off"/>
@@ -3458,7 +3457,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="57.6" y="11.025" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="-" x="58.5" y="10.525" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C402" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="53" y="12.4" smashed="yes" rot="R180">
+<element name="C402" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="53" y="12.4" rot="R180">
 <attribute name="CODE-ARDUINO" value="0132" x="53" y="12.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="53" y="12.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="53" y="12.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3468,7 +3467,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.9" y="11.9" size="0.4064" layer="51" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTE" value="-" x="53" y="12.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C403" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="47.75" y="9.875" smashed="yes">
+<element name="C403" library="Arduino-rcl" package="0402-1005X55N" value="100n" x="47.75" y="9.875">
 <attribute name="CODE-ARDUINO" value="0132" x="47.75" y="9.875" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="http://www.tdk.com/pdf/TDKMLCCCapRange.pdf" x="47.75" y="9.875" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/tdk-corporation/C1005X5R1H104K050BB/445-5942-1-ND/2443982" x="47.75" y="9.875" size="1.778" layer="27" display="off"/>
@@ -3478,7 +3477,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.85" y="10.375" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="-" x="47.75" y="9.875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="FRAME401" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="-33.75" y="0.6" smashed="yes">
+<element name="FRAME401" library="Arduino-utility" package="FRAME-NO-BAN" value="DNP" x="-33.75" y="0.6">
 <attribute name="CODE-ARDUINO" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
@@ -3486,7 +3485,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER-PN" value="DNP" x="-33.75" y="0.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R405" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="61.3" y="10.75" smashed="yes">
+<element name="R405" library="Arduino-rcl" package="0402-1005X55N" value="100k" x="61.3" y="10.75">
 <attribute name="CODE-ARDUINO" value="0134" x="61.3" y="10.75" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="61.3" y="10.75" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07100KL/311-100KLRCT-ND/729473" x="61.3" y="10.75" size="1.778" layer="27" display="off"/>
@@ -3496,7 +3495,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.4" y="11.25" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="61.3" y="10.75" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U401" library="Arduino-ICs" package="VFSOP-8" value="TXS0102" x="53.15" y="10.55" smashed="yes" rot="R270">
+<element name="U401" library="Arduino-ICs" package="VFSOP-8" value="TXS0102" x="53.15" y="10.55" rot="R270">
 <attribute name="CODE-ARDUINO" value="A5332" x="53.15" y="10.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/txs0102.pdf" x="53.15" y="10.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/texas-instruments/TXS0102DCURG4/296-41875-1-ND/5224578" x="53.15" y="10.55" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3507,7 +3506,7 @@ design rules under a new name.</description>
 <attribute name="NOTE" value="NO" x="53.15" y="10.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="52.25" y="10.8" size="0.254" layer="25"/>
 </element>
-<element name="R4" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="62.3" y="8.6" smashed="yes">
+<element name="R4" library="Arduino-rcl" package="0402-1005X55N" value="0R" x="62.3" y="8.6">
 <attribute name="CODE-ARDUINO" value="0039" x="62.3" y="8.6" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" x="62.3" y="8.6" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR-LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0402FR-070RL/311-0.0LRCT-ND/2827888" x="62.3" y="8.6" size="1.778" layer="27" display="off"/>
@@ -3517,7 +3516,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="61.4" y="9.1" size="0.4064" layer="51" font="vector" ratio="10"/>
 <attribute name="NOTE" value="NO" x="62.3" y="8.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="48.3" y="5.25" smashed="yes">
+<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="48.3" y="5.25">
 <attribute name="NAME" x="46.9538" y="7.0788" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="47.03" y="2.075" size="1.27" layer="27"/>
 </element>
@@ -4870,7 +4869,7 @@ design rules under a new name.</description>
 <signal name="PWR1:N$4">
 <contactref element="ON100" pad="C"/>
 <contactref element="R101" pad="1"/>
-<wire x1="57.62" y1="36.576" x2="57.62" y2="38.2" width="0" layer="19" extent="1-1"/>
+<wire x1="57.62" y1="38.2" x2="57.62" y2="36.576" width="0.254" layer="1"/>
 </signal>
 <signal name="MEDBG1:N$6">
 <contactref element="R803" pad="1"/>
@@ -5621,6 +5620,7 @@ design rules under a new name.</description>
 <via x="35.05" y="24.4" extent="1-16" drill="0.3048"/>
 <wire x1="48.26" y1="40.34" x2="48.25" y2="40.35" width="0.254" layer="16"/>
 <via x="48.25" y="40.35" extent="1-16" drill="0.3048"/>
+<wire x1="48.25" y1="40.35" x2="48.25" y2="50.79" width="0.254" layer="1"/>
 <wire x1="48.25" y1="50.79" x2="48.26" y2="50.8" width="0.254" layer="1"/>
 <wire x1="35.05" y1="24.4" x2="35.05" y2="24.85" width="0.254" layer="16"/>
 <wire x1="35.05" y1="24.85" x2="35.2278" y2="25.0278" width="0.254" layer="16"/>
@@ -5633,7 +5633,6 @@ design rules under a new name.</description>
 <wire x1="37.7696625" y1="27.68881875" x2="47.19664375" y2="37.1158" width="0.254" layer="16"/>
 <wire x1="35.5861875" y1="26.14304375" x2="37.1319625" y2="27.68881875" width="0.254" layer="16"/>
 <wire x1="37.1319625" y1="27.68881875" x2="37.7696625" y2="27.68881875" width="0.254" layer="16"/>
-<wire x1="48.25" y1="40.35" x2="48.25" y2="50.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA1">
 <contactref element="IOL" pad="8"/>
@@ -5641,27 +5640,27 @@ design rules under a new name.</description>
 <wire x1="34.7" y1="28.9" x2="34.7" y2="30.75" width="0.254" layer="1"/>
 <via x="35.1" y="31.15" extent="1-16" drill="0.3048"/>
 <wire x1="35.1" y1="31.25" x2="45.72" y2="41.87" width="0.254" layer="16"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="41.87" width="0.254" layer="16"/>
 <wire x1="34.7" y1="30.75" x2="35.1" y2="31.15" width="0.254" layer="1"/>
 <wire x1="35.1" y1="31.15" x2="35.1" y2="31.25" width="0.254" layer="16"/>
 <contactref element="U901" pad="45"/>
 <wire x1="33.488134375" y1="27.74126875" x2="33.54126875" y2="27.74126875" width="0.254" layer="1"/>
-<wire x1="45.72" y1="41.87" x2="45.72" y2="50.8" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PE3">
 <contactref element="IOH" pad="1"/>
 <contactref element="U901" pad="33"/>
 <wire x1="41.656" y1="50.8" x2="41.656" y2="50.594" width="0.254" layer="1"/>
-<wire x1="41.656" y1="50.594" x2="42.225" y2="50.025" width="0.254" layer="1"/>
+<wire x1="41.656" y1="50.594" x2="41.75" y2="50.5" width="0.254" layer="1"/>
 <via x="40.35" y="21.65" extent="1-16" drill="0.3048"/>
 <wire x1="36.175" y1="20.6" x2="36.225" y2="20.55" width="0.254" layer="16"/>
 <via x="36.175" y="20.6" extent="1-16" drill="0.3048"/>
 <wire x1="36.175" y1="20.6" x2="36.175" y2="20.77640625" width="0.254" layer="1"/>
 <wire x1="36.175" y1="20.77640625" x2="35.2559" y2="21.69550625" width="0.254" layer="1"/>
-<wire x1="42.725" y1="29.525" x2="42.225" y2="30.025" width="0.254" layer="1"/>
+<wire x1="42.725" y1="29.525" x2="41.75" y2="30.5" width="0.254" layer="1"/>
 <wire x1="42.725" y1="29.525" x2="42.725" y2="25.45" width="0.254" layer="1"/>
 <wire x1="36.225" y1="20.55" x2="37.675" y2="20.55" width="0.254" layer="16"/>
 <wire x1="37.675" y1="20.55" x2="38.8" y2="21.675" width="0.254" layer="16"/>
-<wire x1="42.225" y1="50.025" x2="42.225" y2="30.025" width="0.254" layer="1"/>
+<wire x1="41.75" y1="50.5" x2="41.75" y2="30.5" width="0.254" layer="1"/>
 <wire x1="42.725" y1="25.45" x2="40.35" y2="23.075" width="0.254" layer="1"/>
 <wire x1="38.8" y1="21.675" x2="40.325" y2="21.675" width="0.254" layer="16"/>
 <wire x1="40.325" y1="21.675" x2="40.35" y2="21.65" width="0.254" layer="16"/>
@@ -5694,9 +5693,8 @@ design rules under a new name.</description>
 <wire x1="28.856584375" y1="27.387715625" x2="28.856584375" y2="27.393415625" width="0.254" layer="1"/>
 <wire x1="28.856584375" y1="27.393415625" x2="27.5" y2="28.75" width="0.254" layer="1"/>
 <wire x1="27.5" y1="28.75" x2="27.5" y2="30.65" width="0.254" layer="1"/>
-<wire x1="36.576" y1="50.8" x2="35.251" y2="49.475" width="0.254" layer="16"/>
-<wire x1="35.251" y1="49.475" x2="35.251" y2="36.601" width="0.254" layer="16"/>
-<wire x1="35.251" y1="36.601" x2="32.3408" y2="33.6908" width="0.254" layer="16"/>
+<wire x1="36.576" y1="50.8" x2="36.576" y2="37.926" width="0.254" layer="16"/>
+<wire x1="36.576" y1="37.926" x2="32.3408" y2="33.6908" width="0.254" layer="16"/>
 <wire x1="28.35" y1="31.5" x2="28.175" y2="31.325" width="0.254" layer="16"/>
 <wire x1="31.4733" y1="33.6908" x2="30.54125" y2="32.75875" width="0.254" layer="16"/>
 <wire x1="31.4733" y1="33.6908" x2="32.3408" y2="33.6908" width="0.254" layer="16"/>
@@ -6673,10 +6671,6 @@ design rules under a new name.</description>
 <wire x1="58.4" y1="33.5" x2="56.175" y2="33.5" width="0.254" layer="1"/>
 <wire x1="28.85" y1="30.0497375" x2="28.85" y2="30.04040625" width="0.254" layer="16"/>
 <wire x1="28.6" y1="29.79040625" x2="28.85" y2="30.04040625" width="0.254" layer="1"/>
-</signal>
-<signal name="N$11">
-<wire x1="64.925" y1="45.05" x2="59" y2="39.125" width="0.1524" layer="1"/>
-<wire x1="59" y1="39.125" x2="58.65" y2="39.125" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
